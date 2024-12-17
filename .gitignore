@@ -12,6 +12,11 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
 
 # environment variables
 .env
