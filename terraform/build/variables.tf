@@ -15,13 +15,13 @@ variable "gcp_region" {
   }
 }
 
-variable  "gcp_data-project" {
+variable  "gcp_data_project" {
     type = string
     description = "website-build"
 }
 
 locals {
     labels = {
-        "data-project" = var.data-project
+        "data-project" = var.data_project
     }
 }
