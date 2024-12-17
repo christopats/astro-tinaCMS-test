@@ -22,6 +22,6 @@ variable  "gcp_data_project" {
 
 locals {
     labels = {
-        "data-project" = var.data_project
+        "data_project" = var.gcp_data_project
     }
 }
