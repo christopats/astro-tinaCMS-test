@@ -5,4 +5,6 @@ heroImage: /blog-placeholder-3.jpg
 title: First post
 ---
 
-This is the first post
+This is the first post\
+\
+Here i am writing some stuff
